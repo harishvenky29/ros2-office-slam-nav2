@@ -214,4 +214,4 @@ Run the tests with `python3 -m pytest test` or `colcon test --packages-select of
 
 [GitHub](https://github.com/harishvenky29) · [LinkedIn](https://www.linkedin.com/in/harish-venkatesan-m-r-833173191)
 
-Licensed under Apache-2.0. `config/nav2_params.yaml` is adapted from ROBOTIS' `turtlebot3_navigation2` (Apache-2.0).
+`config/nav2_params.yaml` is adapted from ROBOTIS' `turtlebot3_navigation2` (Apache-2.0).
