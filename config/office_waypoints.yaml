@@ -1,0 +1,13 @@
+# Patrol route for waypoint_patrol, in the `map` frame.
+# The robot spawns at world (0, 0, yaw 0) and SLAM starts the map there,
+# so map coordinates == Gazebo world coordinates.
+# yaw is in radians (0 = facing +x / east).
+initial_pose: {x: 0.0, y: 0.0, yaw: 0.0}
+
+waypoints:
+  - {name: storage_area,   x:  0.0, y:  2.4, yaw:  1.57}
+  - {name: manager_office, x:  3.0, y:  2.0, yaw:  0.0}
+  - {name: kitchen,        x:  4.6, y: -1.2, yaw: -1.57}
+  - {name: open_plan,      x: -2.5, y: -3.2, yaw:  3.14}
+  - {name: meeting_room,   x: -2.5, y:  2.4, yaw:  3.14}
+  - {name: home,           x:  0.0, y:  0.0, yaw:  0.0}
